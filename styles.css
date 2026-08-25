@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Barlow-Condensed, sans-serif;
+    font-size: 16px;
+    line-height: 1-7;
+    color:whitesmoke;
+    background-color: blue;
+}
+
+h1, h2, h3, .logo {
+    font-family: Bangers, sans-serif;
+    font-weight: 700px;
+    color: orange;
+}
