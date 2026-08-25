@@ -17,3 +17,134 @@ h1, h2, h3, .logo {
     font-weight: 700px;
     color: orange;
 }
+
+a {
+    text-decoration: none;
+    color: red;
+    font-weight: 50px; *
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.site-header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header {
+    padding: 1rem 0; /*tamaño proporcional*/
+    background-color: blue;
+    border-bottom: 1px solid rgb(12, 12, 65);
+}
+
+.logo {
+    font-size: 3rem;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.main-nav li {
+    margin-right: 20px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.main-nav a {
+    font-weight: 700;
+}
+
+#hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+    background-size: cover;
+    background-position: center;
+    color:rgb(255, 102, 0);
+    padding: 150px 0;
+    text-align: center;
+}
+
+
+#hero h1 {
+    color:orange;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: rgb(251, 255, 0);
+    color:red;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+#about, #characters, #products {
+    padding: 80px 0;
+    text-align: center;
+}
+
+#menu {
+    background-color: beige;
+}
+
+h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    gap: 30px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.menu-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+a { 
+    transition: color 0.3s ease;
+}
+
+.main-nav a:hover {
+    color: rgb(161, 134, 11);
+}
+
+.btn:hover {
+    background-color: rgb(214, 214, 9);
+    transition: backgrouund-color 0.6s ease;
+}
+
+.site-footer {
+    background-color: red;
+    color:yellow;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
