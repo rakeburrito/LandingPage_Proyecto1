@@ -65,7 +65,7 @@ a {
 }
 
 #hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url('https://www.spriters-resource.com/media/assets/170/172883.png?updated=1755486367');
+    background-image: linear-gradient(rgba(0, 0, 0, 2), rgba(0, 0, 0, 0)), url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHdyMTVrOGJiOWhlNmZzNHFtNDNxYTkxYXc4M2l4NGpyYzBwNXZtOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BmvsFxTcIkScJAgmNb/giphy.gif');
     background-size: cover;
     background-position: center;
     color:rgb(255, 102, 0);
